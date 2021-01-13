@@ -12,8 +12,8 @@ For this plugin to work you need to add two javascript libraries to your project
 - [Select2](https://select2.github.io/)
 
 First option and **preferred one** is to add libraries to your package builder.
-- You can find example of how to add libraries to the Angular CLI in [demo repository](https://github.com/frazanwer-arch/ng2-select2-demo/blob/master/.angular-cli.json#L24-L25). 
- 
+- You can find example of how to add libraries to the Angular CLI 
+
 Second option is to include libraries into your html head:
 
 ```
