@@ -1,29 +1,27 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-
-# Runtime data
-pids
-*.pid
-*.seed
-
-# Dependency directory
-node_modules
-
-# Optional npm cache directory
-.npm
+# dependencies
+/node_modules
 
 # IDEs and editors
 /.idea
-.project
-.classpath
-*.launch
-.settings/
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+yarn.lock
+yarn-error.log
+.npmignore
+
+#TS files
+**/*.ts
+*.ts
+!**/*.d.ts
+!*.d.ts
+tsconfig.json
+tsconfig-aot.json
 
 #System Files
 .DS_Store
-Thumbs.db
-
-# Generated files
-dist
